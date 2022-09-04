@@ -1,0 +1,38 @@
+// @import 'normalize.css';
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+    --primary: #fe2c55;
+    //Default layout
+    --default-layout-width: 1150px;
+    --default-layout-header-height: 60px;
+    --default-layout-horizontal-spacer:24px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    font-size: 62.5%;
+    
+}
+
+body {
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}
+a[href] {
+    text-decoration: none;
+}
+
+@font-face{
+    font-family: ProximaNova;
+    src:url('/assets/images/Font/ProximaNova-Semibold.woff2');
+    font-weight: 700;
+}

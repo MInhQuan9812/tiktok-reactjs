@@ -1,0 +1,123 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: var(--default-layout-width);
+    min-height: 700px;
+    display: flex;
+    padding: 0 var(--default-layout-horizontal-spacer);
+    justify-content: center;
+    background-color: #20bc19;
+    background-image: linear-gradient(315deg, #20bc19 0%, #23c8b8 46%, #052fab 100%);
+}
+
+.inner {
+    width: 50%;
+    display: flex;
+    min-height: 100px;
+    flex-direction: column;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    align-self: center;
+
+}
+
+.title {
+    display: flex;
+    align-self: center;
+    padding-top: 20px;
+}
+
+
+
+.account-layout {
+    height: 50%;
+    padding: 0px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-layout {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px 20px 30px;
+}
+
+.user-info {
+    font-size: 20px;
+}
+
+.user-place {
+    height: 40px;
+    font-size: 17px;
+    border: none;
+    border-bottom:1px solid grey;
+
+    &:focus {
+        outline: none;
+        border-bottom: 2px solid #000000;
+    }
+}
+
+
+.login-place {
+    padding: 0px 30px 10px 30px;
+    display: flex;
+}
+
+.login-btn {
+    width: 30%;
+    height: 40px;
+    background-color: #19b5bc;
+    background-image: linear-gradient(315deg, #19b5bc 0%, #19b5bc 46%, #052fab 100%);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 20px;
+
+    &:hover {
+        cursor: pointer;
+        border-color: black;
+        background-color: #22c621;
+        background-image: linear-gradient(282deg, #22c621 0%, #21c671 46%, #0f85ad 100%);
+    }
+}
+
+.check-signup-layout {
+    padding: 0px 30px 10px 30px;
+    display: flex;
+    align-self: center;
+
+
+}
+
+.check-signup {
+    display: flex;
+    align-items: center;
+}
+
+.signup-label {
+    font-size: 20px;
+}
+
+.active-signup-label {
+    font-size: 20px;
+    color: #1E90FF;
+
+}
+
+.active-forgot-label {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: grey;
+    width: 50%;
+    align-self: center;
+
+
+}
